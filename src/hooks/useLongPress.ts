@@ -15,7 +15,7 @@ interface TouchPosition {
 export const useLongPress = ({
   onLongPress,
   onClick,
-  longPressDelay = 500,
+  longPressDelay = 200,
   moveThreshold = 10,
 }: UseLongPressOptions) => {
   const isLongPress = useRef(false);
